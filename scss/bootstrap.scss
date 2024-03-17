@@ -1,0 +1,74 @@
+//modify bootstrap scss variables
+// Override the default font-family
+
+$font-family-sans-serif:"Montserrat", sans-serif;
+
+$primary: #f8b547;
+$secondary: #35353a;
+$light: #fbf9f5;
+$body-bg: $light;
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  8: $spacer * 8,
+  12: $spacer * 12
+
+) !default;
+
+// scss-docs-start headings-variables
+$headings-font-weight:        bold; //500 !default;
+$headings-margin-bottom: $spacer * 1; //default $spacer * 0.5
+
+
+//line heights
+$line-height-base: 1.7 !default; //default 1.5
+$line-height-sm: 1.45 !default; //default 1.25
+$line-height-lg: 2.2 !default; //default 2
+
+
+//navbar 
+$navbar-toggler-border-radius: 5px; //default .375rem=6px
+$navbar-nav-link-padding-x:   0.8rem; //default 0.5 rem
+$navbar-padding-y: 1rem; //default .5rem
+
+
+//buttons
+$border-radius: 50px; //default : .375rem;
+$border-radius-sm: 50px; //default: .25rem;
+$border-radius-lg: 50px; //default:  .5rem;
+
+
+$input-btn-padding-y: 10px; // .375rem !default;
+$input-btn-padding-y-sm: 10px; // .25rem !default;
+$input-btn-padding-y-lg: 10px; // .5rem !default;
+
+
+$input-btn-padding-x:  30px; //default: .75rem !default;
+$input-btn-padding-x-sm: 30px; //default: .5rem !default;
+$input-btn-padding-x-lg: 30px; //default: 1rem !default;
+
+
+$btn-padding-x: $input-btn-padding-x !default;
+$btn-padding-x-sm: $input-btn-padding-x-sm !default;
+$btn-padding-x-lg: $input-btn-padding-x-lg !default;
+
+
+$btn-padding-y: $input-btn-padding-y !default;
+$btn-padding-y-sm: $input-btn-padding-y-sm !default;
+$btn-padding-y-lg: $input-btn-padding-y-lg !default;
+
+
+$btn-border-radius: $border-radius; //default = 6px
+$btn-border-radius-sm: $border-radius-sm; 
+$btn-border-radius-lg: $border-radius-lg;
+
+//bootstrap scss
+@import '../node_modules/bootstrap/scss/bootstrap'
